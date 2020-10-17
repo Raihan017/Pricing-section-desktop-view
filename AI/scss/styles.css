@@ -1,0 +1,119 @@
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.pricing {
+  background-color: #BEC8D4;
+  height: 100vh;
+}
+
+.pricing .row {
+  padding-top: 10%;
+}
+
+.pricing .col {
+  padding: 0;
+}
+
+.pricing .col:hover {
+  border-radius: 0 0 5px 5px;
+}
+
+.pricing .col:hover .getnow a {
+  background: -webkit-gradient(linear, left top, right top, from(#26abb9), to(#59ca66)) !important;
+  background: linear-gradient(to right, #26abb9, #59ca66) !important;
+  color: white;
+}
+
+.pricing .col:hover .category .most-popular {
+  display: block;
+  margin-top: -38px;
+  background: orange;
+  border-radius: 5px 5px 0 0;
+  padding: 7px;
+}
+
+.pricing .left-features {
+  margin-top: 53%;
+}
+
+.pricing .left-features li {
+  padding: 7px;
+}
+
+.pricing .left-features li a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.pricing .left-features li:nth-child(odd) {
+  background: #F4F7FC;
+}
+
+.pricing .left-features li:nth-child(even) {
+  background: #E2E5EC;
+}
+
+.pricing .features li {
+  padding: 7px;
+}
+
+.pricing .features li:nth-child(odd) {
+  background: #F4F7FC;
+}
+
+.pricing .features .fa-check {
+  color: #59CA66;
+}
+
+.pricing .features .fa-times {
+  color: grey;
+}
+
+.pricing .category .most-popular {
+  display: none;
+}
+
+.pricing .pricing-cat {
+  background: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.pricing .getnow {
+  margin: 25px auto;
+}
+
+.pricing .getnow a {
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 30px;
+  border: 1px solid #59CA66;
+  color: #59CA66;
+}
+
+.pricing .price {
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.pricing .price h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.pricing .price small {
+  font-size: .8rem;
+}
+
+.pricing .price sup {
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=styles.css.map */

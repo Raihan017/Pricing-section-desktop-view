@@ -1,0 +1,113 @@
+
+p{
+    font-size: 14px;
+}
+h2{
+    font-size: 20px;
+    padding: 15px;
+}
+.pricing{
+    background-color: #BEC8D4;
+    height: 100vh;
+    //margin-top: 40px;
+    .row{
+        padding-top: 10%;
+    }
+    .col{
+        padding: 0;
+        &:hover{
+            border-radius: 0 0 5px 5px;
+            .getnow{
+               a{
+                background: linear-gradient(to right,rgb(38, 171, 185),rgb(89, 202, 102))!important;
+                color:white;
+               }
+            }
+            .category{
+                .most-popular
+                {
+                    display: block;
+                    margin-top: -38px;
+                    background: orange;
+                    border-radius: 5px 5px 0 0;
+                    padding: 7px;
+                }
+            }
+        }
+    }
+    .left-features{
+        margin-top: 53%;
+        li{
+            padding: 7px;
+        
+        }
+        li{
+             a{
+                 padding-left: 20px;
+                 text-decoration: none;
+                 color: black;
+             }
+        }
+        li:nth-child(odd) {
+            background: #F4F7FC;
+          }
+          li:nth-child(even) {
+            background: #E2E5EC;
+          }
+    }
+    .features{
+        li{
+            padding: 7px;
+        }
+        li:nth-child(odd) {
+            background: #F4F7FC;
+          }
+          .fa-check{
+              color:#59CA66;
+          }
+          .fa-times{
+              color:grey;
+          }
+    }
+    .category{
+        .most-popular{
+            display: none;
+        }
+    }
+    .pricing-cat{
+        background: white;
+        border-radius: 5px;
+        margin-right: 10px;
+        padding: 0;
+    }
+   .getnow{
+       margin: 25px auto;
+    a{  
+        text-decoration: none;
+        padding: 7px 20px;
+        border-radius: 30px;
+        border:1px solid #59CA66;
+        color: #59CA66;
+      
+    }
+   }
+   .price{
+        margin-top: -20px;
+       margin-bottom: 15px;
+       h1{
+           font-size: 50px;
+          font-weight: bold;
+       }
+       small{
+           font-size: .8rem;
+       }
+       sup{
+           font-size: 1.8rem;
+       }
+   }
+}
+
+
+
+
+
